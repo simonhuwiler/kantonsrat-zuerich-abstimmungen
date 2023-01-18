@@ -86,7 +86,7 @@ Die einzelnen Abstimmungen liegen im Ordner [export/Jahre/](export/Jahre/). Das 
 |nachname|`str`|Nachname der Regierungsrätin/Regierungsrat|
 |vorname|`str`|Vorname der Regierungsrätin/Regierungsrat|
 |partei|`str`|Partei der Regierungsrätin/Regierungsrat|
-|stimme|`enum`|Wie die Person gestimmt hat: `Ja` = Ja, `Nein` = Nein, `Enthalten` = Enthalten, `--` = abwesend|
+|stimme|`enum`|Wie die Person gestimmt hat: `JA` = Ja, `NEIN` = Nein, `ENTHALTEN` = Enthalten, `--` = abwesend|
 |KRNr|`str`|Interne (?) Nummer, oft leer|
 |VorlageNr|`str`|Nummer des Geschäfts|
 |Titel|`str`|Name des Geschäfts, über das abgestimmt wurde|
