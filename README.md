@@ -99,7 +99,6 @@ Die einzelnen Abstimmungen liegen im Ordner [export/Jahre/](export/Jahre/). Das 
 |Sitzungsdatum|`date`|Wann die Abstimmung stattfand|
 |url|`string`|Adresse zum Abstimmungs-PDF|
 
-
 ## Logik des Exports
 Die Export-Scripte liegen im Ordner [/scr/](src/). Der Export funktioniert wie folgt:
 
