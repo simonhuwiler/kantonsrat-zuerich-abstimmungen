@@ -99,3 +99,21 @@ Die einzelnen Abstimmungen liegen im Ordner [export/Jahre/](export/Jahre/). Das 
 |url|`string`|Adresse zum Abstimmungs-PDF|
 
 
+## Logik des Exports
+Die Export-Scripte liegen im Ordner [/scr/](src/). Der Export funktioniert wie folgt:
+
+### 1. Geschäfte exportieren, Abstimmungen identifizieren (`0_export_documents.ipynb`)
+Alle Geschäfte werden aus der Kantonsrats-API exportiert und als XML im Ordner `GESCHAEFT` abgelegt. In diesen Geschäften werden nun Abstimmungsergebnisse identifiziert. Diese sind nicht speziell getagt, sondern müssen per Texterkennung gesucht werden. Gesucht wird:
+
+* `AR` (=Abstimmungsresultat). Alle Resultate ab 2020
+* `Abstimmungsresultat`. Ältere Dokumente
+
+Alle Abstimmungen werden in der Datei [export/abstimmungen.csv](export/abstimmungen.csv) gespeichert. Danach werden die einzelnen PDFs heruntergeladen und im Ordner [export/eDocuments](export/eDocuments) abgelegt.
+
+### 2. PDF extrahieren (`1_extract_pdfs.ipynb`)
+Alle PDFs werden mit Tabula exportiert. Dazu stehen verschiedene Templates zur Verfügung, die nacheinander durchprobiert werden, bis 180 Stimmen exportiert wurden. An einzelnen Tagen jedoch bestand der Kantonsrat temporär nur aus 179 Rätinnen und Räten, dies wird ebenfalls beachtet.
+
+Das exportierte CSV wird im Ordner [export/eDocumentsCSV](export/eDocumentsCSV) gespeichert.
+
+### 3. Dateien pro Jahr zusammenführen (`2_combine_results.ipynb`)
+Schliesslich werden alle Abstimmungen pro Jahr zusammengefasst und unter [export/Jahre](export/Jahre) abgespeichert.
