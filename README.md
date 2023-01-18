@@ -107,6 +107,7 @@ Alle Geschäfte werden aus der Kantonsrats-API exportiert und als XML im Ordner 
 
 * `AR` (=Abstimmungsresultat). Alle Resultate ab 2020
 * `Abstimmungsresultat`. Ältere Dokumente
+* `Schlussabstimmung`. Manche sind aber auch so benannt...
 
 Alle Abstimmungen werden in der Datei [export/abstimmungen.csv](export/abstimmungen.csv) gespeichert. Danach werden die einzelnen PDFs heruntergeladen und im Ordner [export/eDocuments](export/eDocuments) abgelegt.
 
@@ -116,4 +117,4 @@ Alle PDFs werden mit Tabula exportiert. Dazu stehen verschiedene Templates zur V
 Das exportierte CSV wird im Ordner [export/eDocumentsCSV](export/eDocumentsCSV) gespeichert.
 
 ### 3. Dateien pro Jahr zusammenführen (`2_combine_results.ipynb`)
-Schliesslich werden alle Abstimmungen pro Jahr zusammengefasst und unter [export/Jahre](export/Jahre) abgespeichert.
+Schliesslich werden alle Abstimmungen mit Metadaten angereichert, pro Jahr zusammengefasst und unter [export/Jahre](export/Jahre) abgespeichert.
