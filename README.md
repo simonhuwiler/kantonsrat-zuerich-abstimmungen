@@ -88,7 +88,7 @@ Die einzelnen Abstimmungen liegen im Ordner [export/Jahre/](export/Jahre/). Das 
 |partei|`str`|Partei der Regierungsrätin/Regierungsrat|
 |KRNr|`str`|Interne (?) Nummer, oft leer|
 |VorlageNr|`str`|Nummer des Geschäfts|
-|Titel|`str`|Name des Geschäfts, über das Abgestummen wurde|
+|Titel|`str`|Name des Geschäfts, über das abgestimmt wurde|
 |Geschaeftsart|`enum`|Geschäftsart, `Parlamentarische Initiative`, `Motion`, etc.|
 |AblaufschrittTyp|`enum`|Wo das Geschäft steht. Meist `Zustimmung` oder `Ablehnung`|
 |DokumentTitel|`str`|Titel des exportierten Abstimmungs-PDF|
@@ -96,6 +96,6 @@ Die einzelnen Abstimmungen liegen im Ordner [export/Jahre/](export/Jahre/). Das 
 |eDocumentID|`str`|Eindeutige ID des PDF, respektive CSV. ID stammt aus der API des Kantonsrat. Entspricht auch dem Namen des PDFs.|
 |Version|`int`|Welche Revision das Dokument aufweist. Wurde jeweils nur die letzte Version verwendet|
 |Sitzungsdatum|`date`|Wann die Abstimmung stattfand|
-|ur|`string`|Adresse zum Abstimmungs-PDF|
+|url|`string`|Adresse zum Abstimmungs-PDF|
 
 
