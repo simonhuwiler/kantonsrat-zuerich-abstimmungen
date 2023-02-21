@@ -3,6 +3,10 @@
 ## Was ist hier zu finden
 Die maschinenlesbaren Ergebnisse (fast) aller Abstimmungen im Kantonsrat, jeweils mit Kantonsrätin/Kantonsrat und Partei.
 
+<p align="center">
+  <img src="_doc/table.png" style='max-width: 600px'/>
+</p>
+
 ## Woher stammen die Daten?
 Der Kantonsrat veröffentlicht die Ergebnisse als PDF. Diese PDFs wurden als CSV exportiert.
 
