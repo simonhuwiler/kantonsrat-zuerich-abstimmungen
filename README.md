@@ -70,7 +70,7 @@ Zusätzlich folgende PDFs (`eDocumentID`). Manche sind auch in den oben erwähnt
 
 ## Welche Daten liegen wo?
 * [export/Jahre/](export/Jahre/): Enthält für jedes Jahr sämtliche Abstimmungen und Stimmen. **Das, wo nach du wohl suchst**. Datenstruktur siehe unten
-* [export/abstimmungen.csv](export/abstimmungen.csv): Metadaten über die Abstimmungen. Ist ebenfalls in den effektiven Abstimmungsresultaten enthalten
+* [export/abstimmungen.csv](export/abstimmungen.csv): Metadaten über die Abstimmungen. Ist ebenfalls in den Abstimmungsresultaten oben enthalten
 * [export/eDocuments](export/eDocuments): Enthält einzelne Abstimmungen als PDF. Dies sind die Originaldateien
 * [export/eDocumentsCSV](export/eDocumentsCSV): Enthält einzelne Abstimmungen als CSV, exportiert aus PDF
 * [export/GESCHAEFT](export/GESCHAEFT): Alle Geschäfte als XML, direkt exportiert aus der Kantonsrats-API
@@ -116,3 +116,6 @@ Das exportierte CSV wird im Ordner [export/eDocumentsCSV](export/eDocumentsCSV) 
 
 ### 3. Dateien pro Jahr zusammenführen (`2_combine_results.ipynb`)
 Schliesslich werden alle Abstimmungen mit Metadaten angereichert, pro Jahr zusammengefasst und unter [export/Jahre](export/Jahre) abgespeichert.
+
+## Kontakt
+[@simonhuwiler](https://www.nzz.ch/impressum/simon-huwiler-shu-ld.1650592)
