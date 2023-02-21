@@ -6,7 +6,10 @@ Die maschinenlesbaren Ergebnisse (fast) aller Abstimmungen im Kantonsrat, jeweil
 ## Woher stammen die Daten?
 Der Kantonsrat veröffentlicht die Ergebnisse als PDF. Diese PDFs wurden als CSV exportiert.
 
-## Was fehlt?
+## Wieso nur bis 2020?
+Die Daten ab dem Lockdown 2020 bis zum neuen Provisorium im 2023 sind nicht brauchbar. Der Zählcomputer lieferte zwar ein korrektes Endergebnis, jedoch hat er die detaillierten Resultate falsch zugeordnet. Das bestätigen die Parlamentsdienste. Sie raten davon ab, die PDFs während der Coronazeit zu nutzen. Ab dem Umzug ins Bullinger-Provisorium (20. Februar 2023) soll eine ordentliche API zur Verfügung stehen.
+
+## Was fehlt sonst noch?
 Einzelne PDFs wurden eingescannt und sind maschinell nicht lesbar. Diese wurden nicht exportiert. Dies sind alle Abstimmungen an folgenden Tagen:
 * `2013-05-13`
 * `2013-06-17`
@@ -64,9 +67,6 @@ Zusätzlich folgende PDFs (`eDocumentID`). Manche sind auch in den oben erwähnt
 **Falsch benannt**
 * `4398af876b1249acab10d9a50a93b6f1-332`
 * `77663a0de59f4458bc670cad3f1f0beb-332`
-
-## Und was ist mit 2020 und später?
-Die Daten ab dem Lockdown 2020 bis zum neuen Provisorium im 2023 sind nicht brauchbar. Der Zählcomputer lieferte zwar ein korrektes Endergebnis, jedoch hat er die detaillierten Resultate falsch zugeordnet. Das bestätigen die Parlamentsdienste. Sie raten davon ab, die PDFs während der Coronazeit zu nutzen. Ab dem Umzug ins Bullinger-Provisorium (20. Februar 2023) soll eine ordentliche API zur Verfügung stehen.
 
 ## Welche Daten liegen wo?
 * [export/Jahre/](export/Jahre/): Enthält für jedes Jahr sämtliche Abstimmungen und Stimmen. Datenstruktur siehe unten
