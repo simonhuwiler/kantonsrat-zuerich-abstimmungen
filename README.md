@@ -1,10 +1,10 @@
 # Abstimmungen des Zürcher Kantonsrats von 2013 - 2020
 
 ## Was ist hier zu finden
-Die Ergebnisse (fast) aller Abstimmungen im Kantonsrat, jeweils mit Kantonsrätin/Kantonsrat und Partei.
+Die maschinenlesbaren Ergebnisse (fast) aller Abstimmungen im Kantonsrat, jeweils mit Kantonsrätin/Kantonsrat und Partei.
 
 ## Woher stammen die Daten?
-Der Kantonsrat veröffentlicht die Ergebnisse als PDF. Diese PDFs wurden exportiert.
+Der Kantonsrat veröffentlicht die Ergebnisse als PDF. Diese PDFs wurden als CSV exportiert.
 
 ## Was fehlt?
 Einzelne PDFs wurden eingescannt und sind maschinell nicht lesbar. Diese wurden nicht exportiert. Dies sind alle Abstimmungen an folgenden Tagen:
@@ -50,8 +50,6 @@ Zusätzlich folgende PDFs (`eDocumentID`). Manche sind auch in den oben erwähnt
 * `97af4b09426f41c3940981500450dabc-332`
 * `1514c9f2c9e84aeaae22f981e03b6acd-332`
 
-
-
 **Fehlerhafter Zeichensatz**
 * `4266a27393644bd48c311bd9692ead59-332`
 * `9ba073ed8e9a4d12b993fe8b4ce961d6-332`
@@ -68,7 +66,7 @@ Zusätzlich folgende PDFs (`eDocumentID`). Manche sind auch in den oben erwähnt
 * `77663a0de59f4458bc670cad3f1f0beb-332`
 
 ## Und was ist mit 2020 und später?
-Die Daten ab dem Lockdown 2020 bis zum neuen Provisorium im Verlauf 2023 sind nicht brauchbar. Der Zählcomputer lieferte zwar ein korrektes Endergebnis, jedoch hat er die detaillierten Resultate falsch zugeordnet. Das bestätigen die Parlamentsdienste. Siehe dazu diesen Artikel XXX.
+Die Daten ab dem Lockdown 2020 bis zum neuen Provisorium im 2023 sind nicht brauchbar. Der Zählcomputer lieferte zwar ein korrektes Endergebnis, jedoch hat er die detaillierten Resultate falsch zugeordnet. Das bestätigen die Parlamentsdienste. Sie raten davon ab, die PDFs während der Coronazeit zu nutzen. Ab dem Umzug ins Bullinger-Provisorium (20. Februar 2023) soll eine ordentliche API zur Verfügung stehen.
 
 ## Welche Daten liegen wo?
 * [export/Jahre/](export/Jahre/): Enthält für jedes Jahr sämtliche Abstimmungen und Stimmen. Datenstruktur siehe unten
