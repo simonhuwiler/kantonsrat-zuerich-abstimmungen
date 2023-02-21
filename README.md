@@ -69,7 +69,7 @@ Zusätzlich folgende PDFs (`eDocumentID`). Manche sind auch in den oben erwähnt
 * `77663a0de59f4458bc670cad3f1f0beb-332`
 
 ## Welche Daten liegen wo?
-* [export/Jahre/](export/Jahre/): Enthält für jedes Jahr sämtliche Abstimmungen und Stimmen. Datenstruktur siehe unten
+* [export/Jahre/](export/Jahre/): Enthält für jedes Jahr sämtliche Abstimmungen und Stimmen. **Das, wo nach du wohl suchst**. Datenstruktur siehe unten
 * [export/abstimmungen.csv](export/abstimmungen.csv): Metadaten über die Abstimmungen. Ist ebenfalls in den effektiven Abstimmungsresultaten enthalten
 * [export/eDocuments](export/eDocuments): Enthält einzelne Abstimmungen als PDF. Dies sind die Originaldateien
 * [export/eDocumentsCSV](export/eDocumentsCSV): Enthält einzelne Abstimmungen als CSV, exportiert aus PDF
