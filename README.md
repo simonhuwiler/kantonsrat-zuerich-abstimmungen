@@ -7,7 +7,7 @@ Die maschinenlesbaren Ergebnisse (fast) aller Abstimmungen im Kantonsrat, jeweil
 Der Kantonsrat veröffentlicht die Ergebnisse als PDF. Diese PDFs wurden als CSV exportiert.
 
 ## Wieso nur bis 2020?
-Die Daten ab dem Lockdown 2020 bis zum neuen Provisorium im 2023 sind nicht brauchbar. Der Zählcomputer lieferte zwar ein korrektes Endergebnis, jedoch hat er die detaillierten Resultate falsch zugeordnet. Das bestätigen die Parlamentsdienste. Sie raten davon ab, die PDFs während der Coronazeit zu nutzen. Ab der neuen Legislatur im Bullinger-Provisorium (8. Mai 2023) soll eine ordentliche API zur Verfügung stehen.
+Die Daten ab dem Lockdown 2020 bis zum neuen Provisorium im 2023 sind nicht brauchbar. Der Zählcomputer im Messeprovisorium lieferte zwar ein korrektes Endergebnis, jedoch hat er die detaillierten Resultate falsch zugeordnet. Das bestätigen die Parlamentsdienste. Sie raten davon ab, die PDFs während der Coronazeit zu nutzen. Ab der neuen Legislatur im Bullinger-Provisorium (8. Mai 2023) soll eine ordentliche API zur Verfügung stehen.
 
 ## Was fehlt sonst noch?
 Einzelne PDFs wurden eingescannt und sind maschinell nicht lesbar. Diese wurden nicht exportiert. Dies sind alle Abstimmungen an folgenden Tagen:
