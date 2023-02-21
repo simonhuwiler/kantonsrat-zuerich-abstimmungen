@@ -6,8 +6,8 @@ Die maschinenlesbaren Ergebnisse (fast) aller Abstimmungen im Kantonsrat, jeweil
 ## Woher stammen die Daten?
 Der Kantonsrat veröffentlicht die Ergebnisse als PDF. Diese PDFs wurden als CSV exportiert.
 
-## Wieso nur bis 2020?
-Die Daten ab dem Lockdown 2020 bis zum neuen Provisorium im 2023 sind nicht brauchbar. Der Zählcomputer im Messeprovisorium lieferte zwar ein korrektes Endergebnis, jedoch hat er die detaillierten Resultate falsch zugeordnet. Das hat der Export ergeben und das bestätigen auch die Parlamentsdienste. Sie raten davon ab, die PDFs während der Coronazeit zu nutzen. Ab der neuen Legislatur im Bullinger-Provisorium (8. Mai 2023) soll eine ordentliche API zur Verfügung stehen.
+## Wieso nur bis März 2020?
+Die Daten ab dem Lockdown 2020 bis zum neuen Provisorium im 2023 sind nicht brauchbar. Der Zählcomputer im Messeprovisorium lieferte zwar ein korrektes Endergebnis, jedoch hat er die detaillierten Resultate falsch zugeordnet. Das hat der Export ergeben und das bestätigen auch die Parlamentsdienste. Sie raten davon ab, die PDFs, die während der Coronazeit entstanden sind, zu nutzen. Ab der neuen Legislatur im Bullinger-Provisorium (8. Mai 2023) soll eine ordentliche API zur Verfügung stehen.
 
 ## Was fehlt sonst noch?
 Einzelne PDFs wurden eingescannt und sind maschinell nicht lesbar. Diese wurden nicht exportiert. Dies sind alle Abstimmungen an folgenden Tagen:
@@ -68,12 +68,12 @@ Zusätzlich folgende PDFs (`eDocumentID`). Manche sind auch in den oben erwähnt
 * `4398af876b1249acab10d9a50a93b6f1-332`
 * `77663a0de59f4458bc670cad3f1f0beb-332`
 
-## Welche Daten liegen wo?
-* [export/Jahre/](export/Jahre/): Enthält für jedes Jahr sämtliche Abstimmungen und Stimmen. **Das, wo nach du wohl suchst**. Datenstruktur siehe unten
+## Welche Daten sind hier zu finden?
+* [export/Jahre/](export/Jahre/): Enthält für jedes Jahr sämtliche Abstimmungen und Stimmen. **Das, wonach du wohl suchst**. Datenstruktur siehe unten
 * [export/abstimmungen.csv](export/abstimmungen.csv): Metadaten über die Abstimmungen. Ist ebenfalls in den Abstimmungsresultaten oben enthalten
 * [export/eDocuments](export/eDocuments): Enthält einzelne Abstimmungen als PDF. Dies sind die Originaldateien
-* [export/eDocumentsCSV](export/eDocumentsCSV): Enthält einzelne Abstimmungen als CSV, exportiert aus PDF
-* [export/GESCHAEFT](export/GESCHAEFT): Alle Geschäfte als XML, direkt exportiert aus der Kantonsrats-API
+* [export/eDocumentsCSV](export/eDocumentsCSV): Enthält einzelne Abstimmungen als CSV, exportiert aus den obigen PDFs
+* [export/GESCHAEFT](export/GESCHAEFT): Alle Geschäfte als XML, exportiert aus der Kantonsrats-API
 
 ## Datenstruktur
 Die einzelnen Abstimmungen liegen im Ordner [export/Jahre/](export/Jahre/). Das CSV enthält folgende Spalten:
