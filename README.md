@@ -4,7 +4,7 @@
 Die maschinenlesbaren Ergebnisse (fast) aller Abstimmungen im Kantonsrat, jeweils mit Kantonsrätin/Kantonsrat und Partei.
 
 <p align="center">
-  <img src="_doc/table.png" style='max-width: 600px'/>
+  <img src="_doc/table.png" style='max-width: 400px'/>
 </p>
 
 ## Woher stammen die Daten?
